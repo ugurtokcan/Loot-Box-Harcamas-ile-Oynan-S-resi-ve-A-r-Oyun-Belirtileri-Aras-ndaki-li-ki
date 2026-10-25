@@ -1,1 +1,1 @@
-# Loot-Box-Harcamas-ile-Oynan-S-resi-ve-A-r-Oyun-Belirtileri-Aras-ndaki-li-ki
+# Lootbox harcaması ile oynanış süresi ve aşırı oyun belirtileri arasındaki ilişki
