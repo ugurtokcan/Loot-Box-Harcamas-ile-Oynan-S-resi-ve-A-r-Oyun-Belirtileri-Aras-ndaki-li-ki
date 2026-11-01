@@ -2,8 +2,6 @@
 
 Bu proje, dijital oyunlardaki **loot box** (rastgele ödül kutusu) harcaması ile oyuncuların **günlük oynanış süresi** ve **aşırı oyun belirtileri** arasındaki ilişkiyi incelemektedir. Çalışmada yeni veri toplanmaz; daha önce yayımlanmış bir anket verisi Python ile ikincil analize tabi tutulur ve bulgular literatürdeki çalışmalarla kıyaslanır.
 
-> Proje devam etmektedir. Bu aşamada kodlamaya geçmeden önce sistemin yapısı UML diyagramlarıyla modellenmiştir.
-
 ## Araştırma soruları ve hipotezler
 
 | Kod | Hipotez |
