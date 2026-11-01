@@ -58,18 +58,3 @@ Diyagram, analizin akışını anket verisinin içe aktarılmasından rapor olu�
 ![Class Diyagramı](docs/diagrams/03_class_diyagrami.png)
 
 Diyagram, projenin temel sınıflarını veri ve analiz olarak iki katmanda gösterir: `Katilimci` ve `AnketVerisi` veriyi, `Hipotez`, `IstatistikselTest` (Mann-Whitney U, Kendall, regresyon alt sınıflarıyla), `Sonuc`, `LiteraturKaynagi` ve `Rapor` ise analiz sürecini temsil eder. Sınıflar bileşim, kalıtım, toplama ve bağımlılık ilişkileriyle bağlanmıştır.
-
-## Klasör yapısı
-
-```
-.
-├── README.md
-└── docs/
-    └── diagrams/
-        ├── <img width="3520" height="2760" alt="arastirma_veri_analiz_sistemi_use_case" src="https://github.com/user-attachments/assets/258c7cd4-f6f3-4953-ad51-5152417b290d" />
-
-        ├── <img width="3520" height="2760" alt="arastirma_veri_analiz_sistemi_use_case" src="https://github.com/user-attachments/assets/c23f8b9d-6535-464f-8cfa-665de70b85ca" />
-
-        └── <img width="3520" height="2760" alt="arastirma_veri_analiz_sistemi_use_case" src="https://github.com/user-attachments/assets/33d508a0-4634-407f-ae78-c0105207b032" />
-
-```
