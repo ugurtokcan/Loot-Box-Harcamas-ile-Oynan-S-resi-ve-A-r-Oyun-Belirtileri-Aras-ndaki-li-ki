@@ -42,7 +42,8 @@ OSF sayfasında veri için bir lisans belirtilmediğinden ham veri bu depoda pay
 
 ### 1. Use Case Diyagramı (Kullanım Durumu)
 
-![Use Case Diyagramı](<img width="3520" height="2760" alt="arastirma_veri_analiz_sistemi_use_case" src="https://github.com/user-attachments/assets/5965dcdd-187e-47de-83aa-0f9a4fec0aa3" />)
+![Use Case Diyagramı](<img width="3520" height="2760" alt="arastirma_veri_analiz_sistemi_use_case" src="https://github.com/user-attachments/assets/70d6f63c-00d5-4a24-8c95-2c2fe619acf0" />
+)
 
 Diyagram, araştırma veri analiz sisteminin kullanıcılarını ve işlemlerini gösterir. Araştırmacı verinin içe aktarılması, temizlenmesi, ilişki analizi, literatürle kıyaslama ve raporlama işlemlerini yürütür; sonuçlara erişen kişi (öğretim üyesi) ise rapor ve GitHub deposunu inceler. Harici anket veritabanı (OSF) ve yayımlanmış çalışmalar sisteme veri ve karşılaştırma bulgusu sağlayan dış aktörlerdir.
 
