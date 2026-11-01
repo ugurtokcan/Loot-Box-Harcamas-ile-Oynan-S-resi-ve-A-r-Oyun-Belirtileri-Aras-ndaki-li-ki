@@ -2,8 +2,6 @@
 
 Bu proje, dijital oyunlardaki **loot box** (rastgele ödül kutusu) harcaması ile oyuncuların **günlük oynanış süresi** ve **aşırı oyun belirtileri** arasındaki ilişkiyi incelemektedir. Çalışmada yeni veri toplanmaz; daha önce yayımlanmış bir anket verisi Python ile ikincil analize tabi tutulur ve bulgular literatürdeki çalışmalarla kıyaslanır.
 
-> Proje devam etmektedir. Bu aşamada kodlamaya geçmeden önce sistemin yapısı UML diyagramlarıyla modellenmiştir.
-
 ## Araştırma soruları ve hipotezler
 
 | Kod | Hipotez |
@@ -22,8 +20,6 @@ Etchells, Morgan ve Quintana (2022) tarafından toplanan ve OSF'de açık erişi
 
 - OSF: https://osf.io/2zhrm
 - DOI: 10.17605/OSF.IO/2ZHRM
-
-OSF sayfasında veri için bir lisans belirtilmediğinden ham veri bu depoda paylaşılmamıştır. Veriye yukarıdaki bağlantıdan ulaşılabilir.
 
 ## Literatür
 
