@@ -6,13 +6,11 @@ Bu proje, dijital oyunlardaki **loot box** (rastgele ödül kutusu) harcaması i
 
 | Kod | Hipotez |
 |---|---|
-| H1 | Loot box'a para harcayan oyuncuların günlük oyun süresi, harcamayanlardan yüksektir. |
-| H2 | Loot box harcaması ile günlük oyun süresi arasında pozitif bir ilişki vardır. |
-| H3 | Bu ilişki, yaş, gelir ve aşırı oyun skoru kontrol edildiğinde de sürer. |
-| H4 | Loot box harcaması ile problemli kumar skoru arasında pozitif ilişki vardır. |
-| H5 | Loot box harcaması ile aşırı oyun skoru arasında pozitif ilişki vardır. |
-
-H1–H3 projenin yeni katkısıdır (oynanış süresi); H4–H5 ise bulgularımızın literatürle kıyaslanmasını sağlar.
+| 1 | Loot box'a para harcayan oyuncuların günlük oyun süresi, harcamayanlardan yüksektir. |
+| 2 | Loot box harcaması ile günlük oyun süresi arasında pozitif bir ilişki vardır. |
+| 3 | Bu ilişki, yaş, gelir ve aşırı oyun skoru kontrol edildiğinde de sürer. |
+| 4 | Loot box harcaması ile problemli kumar skoru arasında pozitif ilişki vardır. |
+| 5 | Loot box harcaması ile aşırı oyun skoru arasında pozitif ilişki vardır. |
 
 ## Veri kaynağı
 
