@@ -21,6 +21,28 @@ Etchells, Morgan ve Quintana (2022) tarafından toplanan ve OSF'de açık erişi
 - OSF: https://osf.io/2zhrm
 - DOI: 10.17605/OSF.IO/2ZHRM
 
+## Colab analizi
+
+Analiz, `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasında Google Colab ile yapılmıştır. Notebook, OSF'den indirilen orijinal `LootboxOSFdata.csv` dosyasını okur, katılımcı kimlik numarası olan `URN` sütununu analizden çıkarır, katılımcıları son ayda loot box'a para harcayanlar (`Lootbox spend` > 0) ve harcamayanlar olarak ikiye ayırır, ardından günlük oyun süresini bu iki grup için karşılaştıran bir özet tablo ve kutu grafiği üretir. Bu aşama H1 hipotezinin ilk görsel incelemesidir.
+
+**Nasıl çalıştırılır:**
+1. `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasını Google Colab'da aç.
+2. Veri bu depoda yer almaz. `LootboxOSFdata.csv` dosyasını https://osf.io/2zhrm adresinden indir.
+3. İlk hücreyi çalıştırıp indirdiğin CSV dosyasını seç, sonra hücreleri sırayla çalıştır.
+
+### Özet tablo
+
+| Grup | Kişi sayısı | Ortalama (saat/gün) | Medyan | Q1 | Q3 |
+|---|---|---|---|---|---|
+| Harcamayan | 1.641 | 2,06 | 1,5 | 1,0 | 2,5 |
+| Harcayan | 1.087 | 2,64 | 2,0 | 1,0 | 3,0 |
+
+### Kutu grafiği
+
+![Günlük oyun süresi kutu grafiği](docs/oyun_suresi_kutu_grafigi.png)
+
+Grafik, loot box'a para harcayan ve harcamayan oyuncuların günlük oyun süresini yan yana gösterir. Harcayan grubun medyanı (2 saat) harcamayan gruptan (1,5 saat) biraz yüksektir, ancak iki grubun kutuları büyük ölçüde örtüşür ve her iki grupta da 20 saati aşan uç değerler vardır. Veri kesitsel ve öz bildirime dayalı olduğu için bu sonuç nedensellik değil, yalnızca olası bir ilişki gösterir. Notebook'ta henüz istatistiksel anlamlılık testi ve kontrol değişkenli analiz (H2–H5) yapılmamıştır, bunlar sonraki aşamada eklenecektir.
+
 ## Literatür
 
 - **Etchells, P. J., Morgan, A. L. ve Quintana, D. S. (2022).** Loot box spending is associated with problem gambling but not mental wellbeing. *Royal Society Open Science, 9*(8), 220111. https://doi.org/10.1098/rsos.220111
@@ -59,7 +81,10 @@ Diyagram, projenin temel sınıflarını veri ve analiz olarak iki katmanda gös
 ```
 .
 ├── README.md
+├── notebooks/
+│   └── lootbox_oyun_suresi_grafik.ipynb
 └── docs/
+    ├── oyun_suresi_kutu_grafigi.png
     └── diagrams/
         ├── 01_use_case_diyagrami.png
         ├── 02_activity_diyagrami.png
