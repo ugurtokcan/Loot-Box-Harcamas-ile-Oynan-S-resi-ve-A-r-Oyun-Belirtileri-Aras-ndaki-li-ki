@@ -21,7 +21,7 @@ Etchells, Morgan ve Quintana (2022) tarafından toplanan ve OSF'de açık erişi
 
 ## Colab analizi
 
-Analiz, `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasında Google Colab ile yapılmıştır. Notebook, OSF'den indirilen orijinal `LootboxOSFdata.csv` dosyasını okur, katılımcı kimlik numarası olan `URN` sütununu analizden çıkarır, katılımcıları son ayda loot box'a para harcayanlar (`Lootbox spend` > 0) ve harcamayanlar olarak ikiye ayırır, ardından günlük oyun süresini bu iki grup için karşılaştıran bir özet tablo ve kutu grafiği üretir. Bu aşama H1 hipotezinin ilk görsel incelemesidir.
+Analiz, `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasında Google Colab ile yapılmıştır. Notebook, OSF'den indirilen orijinal `LootboxOSFdata.csv` dosyasını okur, katılımcıları son ayda loot box'a para harcayanlar (`Lootbox spend` > 0) ve harcamayanlar olarak ikiye ayırır, ardından günlük oyun süresini bu iki grup için karşılaştıran bir özet tablo ve kutu grafiği üretir. Bu aşama H1 hipotezinin ilk görsel incelemesidir.
 
 **Nasıl çalıştırılır:**
 1. `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasını Google Colab'da aç.
