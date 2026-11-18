@@ -39,7 +39,7 @@ Analiz, `notebooks/lootbox_oyun_suresi_grafik.ipynb` dosyasında Google Colab il
 
 ![Günlük oyun süresi kutu grafiği](docs/oyun_suresi_kutu_grafigi.png)
 
-Grafik, loot box'a para harcayan ve harcamayan oyuncuların günlük oyun süresini yan yana gösterir. Harcayan grubun medyanı (2 saat) harcamayan gruptan (1,5 saat) biraz yüksektir, ancak iki grubun kutuları büyük ölçüde örtüşür ve her iki grupta da 20 saati aşan uç değerler vardır. Veri kesitsel ve öz bildirime dayalı olduğu için bu sonuç nedensellik değil, yalnızca olası bir ilişki gösterir. Notebook'ta henüz istatistiksel anlamlılık testi ve kontrol değişkenli analiz (H2–H5) yapılmamıştır, bunlar sonraki aşamada eklenecektir.
+Grafik, loot box'a para harcayan ve harcamayan oyuncuların günlük oyun süresini yan yana gösterir. Harcayan grubun medyanı (2 saat) harcamayan gruptan (1,5 saat) biraz yüksektir, ancak iki grubun kutuları büyük ölçüde örtüşür ve her iki grupta da 20 saati aşan uç değerler vardır. Veri kesitsel ve öz bildirime dayalı olduğu için bu sonuç nedensellik değil, yalnızca olası bir ilişki gösterir.
 
 ## Literatür
 
